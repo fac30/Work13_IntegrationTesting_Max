@@ -18,7 +18,7 @@ function calculate(a, sign, b) {
   }
 }
 
-/* const form = document.querySelector("form");
+const form = document.querySelector("form");
 const result = document.querySelector("#result");
 
 form.addEventListener("submit", (event) => {
@@ -34,8 +34,8 @@ form.addEventListener("submit", (event) => {
   const answer = calculate(a, sign, b);
   document.querySelector("#result").textContent = answer;
   event.target.reset();
-}); */
+});
 
-module.exports = {
+/* module.exports = {
   calculate
-};
+}; */

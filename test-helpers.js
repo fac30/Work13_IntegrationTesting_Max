@@ -24,8 +24,8 @@ function test(name, testFunction) {
   console.groupEnd(name);
 }
 
-module.exports = {
+/* module.exports = {
   equal,
   notEqual,
   test
-};
+}; */
